@@ -14,9 +14,9 @@ export function PlayerCard({ name, onRemove }: Props) {
         {name}
       </Name>
 
-      <ButtonIcon 
-      icon="close" 
-      type="SECONDARY"
+      <ButtonIcon
+        icon="close"
+        type="SECONDARY"
         onPress={onRemove}
       />
     </Container>
